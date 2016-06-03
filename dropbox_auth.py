@@ -9,7 +9,7 @@ Created on Feb 5, 2015
 import gnupg
 import dropbox
 
-access_token = 'H8ZZjpTqlvIAAAAAAAAAaCSwX6VIYEXHPlsU7NLb_oc0PwQaz6VMCWzPPGHfabKr'
+access_token = 'Your API Access key'
 client = dropbox.client.DropboxClient(access_token)
 gpg = gnupg.GPG()
 gpg.encoding = 'utf-8'
